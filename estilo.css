@@ -1,0 +1,263 @@
+html , body {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+}
+.imagemdefundo{
+    height: 100% ;
+    background : url("img/combate-fome-brasil.jpg") ;
+    text-align: center;
+    background-size: cover;
+    margin: 0px;
+}
+#titulo {
+    color: white;
+    padding-top: 15%;
+    font-size: 50px;
+}
+#Subtitulo{
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    font-family: arial;
+}
+#acao{
+    color: white;
+    border:1px white solid;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.icone{
+    width: 51px;
+}
+
+#projeto {
+    background-color: white;
+    padding: 20px;
+}
+
+#projeto2{
+    background-color: white;
+    padding: 20px;
+}
+#selecao {
+    padding:10px;
+    margin: 0px;
+    float: left;
+    position: relative;
+    
+}
+    
+#sobre { 
+    background-color: rgb(133, 247, 110);
+    padding: 10px;
+}
+.coluna{
+    float:left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    text-align: justify;
+    margin-top: 5%;
+    
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+.coluna4 {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 5 20px 0;
+    position: relative;
+    display: table;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    display: block;
+}
+.centro ,h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+    outline: none;
+}
+.colunadois {
+    background-color:f4a261 ;
+    padding:0 5%;
+    float:left;
+    position: relative;
+    width: 40%;
+    
+}
+
+.colunatres {
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+.colunatres {
+    display: block;
+    font-size: 15px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 30px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.coluna, .colunadois, .colunatres, .coluna4 , .centro,h1{
+    font-family: arial;
+}
+
+
+h3{
+    font-family: arial;
+}
+
+
+@media all and (max-width:760px){
+    #menu{ visibility:hidden}
+    .coluna , .coluna4, .colunadois , .colunatres, h1, #titulo, .icone, .centralizado, .justificado, h3,section, 
+    .centro, .imagemdefundo{
+      display:block;
+      width: 87%;
+      padding:2px;
+      margin: 0px auto;
+      float: none;
+     
+    }
+
+ #logodiv{
+        width:100% ;
+        border: 1px;
+        position: relative;
+        text-align: center;}
+#logo{
+    margin-left: 0px;
+    transform: translateX(-50%);}
+.icone{
+    width: 30%;}
+.eu{width: 100%;}
+
+.colunatres{width:100%;}
+#titulo {
+    color: white;
+    padding-top: 75%;
+    font-size: 30px;
+}
+
+#subtitulo{ font-size: 100%;
+    padding:3%;
+    margin:0%}
+
+.centro{ text-align: left;}
+.colunadois{text-align: left;}
+#menu{ 
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
+#acao{
+    padding: 2px 4px 2px 4px;
+}
+.imagemdefundo{width: 100%;}
+
+}
+
+
+.eu{ padding: 10px;}
+
+header{
+   
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    background-color:ef5627;
+    height:85px;
+    width: 100%;
+    position: fixed;
+    z-index:10;
+}
+
+#logo{
+    width:75px;
+    position: absolute;
+    top:5px;
+    margin-left: 5%;
+    margin-top:0%;
+
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-left: 5%; 
+   
+}
+li{
+    float: left;
+    padding: 10 20  10  20 ;
+    font-family: arial;
+    font-size: 17px;
+}
+
+nav ul li a {
+
+    font-size: 18px;
+    padding: 5px 30px;
+    display: inline-block;
+}
+#cormenu{
+    text-decoration: none;
+    list-style: none; 
+    color:white
+    
+}
+
+h1 {
+ font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
+    
+
